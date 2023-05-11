@@ -1,0 +1,35 @@
+POST http://localhost:82/api/auth/sign-in
+Content-Type: application/json
+
+{
+  "username": "abdualievdev666@gmail.com",
+  "password": "112345sa_A"
+}
+###
+POST http://localhost:82/api/auth/sign-up
+Content-Type: application/json
+
+{
+  "username": "abdualievdev666@gmail.com",
+  "password": "112345sa_A"
+}
+
+###
+
+POST http://localhost:82/api/auth/sign-up
+Content-Type: application/json
+
+{
+  "username": "azizjonabdualiev@gmail.com",
+  "password": "Azizjon@gmail7"
+}
+
+###
+
+POST http://localhost:82/api/auth/sign-in
+Content-Type: application/json
+
+{
+  "username": "azizjonabdualiev@gmail.com",
+  "password": "Azizjon@gmail7"
+}

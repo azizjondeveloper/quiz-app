@@ -1,0 +1,40 @@
+server:
+  port: 82
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  datasource:
+    password: root123
+    url: jdbc:postgresql://localhost:5432/quiz
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+  mail:
+    host: smtp.gmail.com
+    password: hqivwnwxecybrsxb
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: azizabdualiyev6@gmail.com
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+jwt:
+  access:
+    key: 3XpdXc*765Pzi!jl8buv7QsBaOl!pUNdtVnCc#kf6ihD5G*^U%
+    expirationTime: 72000000
+  refresh:
+    key: 3XpdXc*765Pzidasdlas;kdasjdlashda!jl8buv7QsBaOl!#kf6ihD5G*^U%
+    expirationTime: 604800000
